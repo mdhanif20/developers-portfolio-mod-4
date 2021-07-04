@@ -7,7 +7,11 @@ h1 {
     font-size: 45px;
 }
 
-section {
+h2 {
+    font-size: 35px;
+}
+
+.flexbile-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -21,7 +25,7 @@ section {
     width: 90%;
 }
 
-.half-width span {
+.color-gradient {
     color: #ffa500;
 }
 
@@ -46,4 +50,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+.experiance-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 10px 10px 50px 50px;
+}
+
+.flexbile-container {
+    background-image: url(images/kk.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#baby-experiance {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stick-experiance {
+    border-left: 7px solid;
+    border-image: linear-gradient(#FF9571, #ff9472);
+    border-image-slice: 1;
 }
